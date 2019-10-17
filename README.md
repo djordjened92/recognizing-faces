@@ -12,3 +12,6 @@ Positive pairs of images are initially provided, but for training and testing pu
 Hence, the input to the whole system is a pair of images and a label, where images pass through two identical networks and one cost module. Model contains two submodels, first one is pretrained FaceNet deep convolutional neural network and the second one is a trainable MLP.
 
 Face embeddings are extracted using pretrained model from [keras-facenet](https://pypi.org/project/keras-facenet/) package, which is actually a wrapper around https://github.com/davidsandberg/facenet. Embeddings are stored in **data** directory.
+
+## NOTE: Code preview
+Due to GitHub issue of loading Jupyter Notebooks, you can preview code on [Embeddings.ipynb](https://nbviewer.jupyter.org/github/djordjened92/recognizing-faces/blob/master/Embeddings.ipynb) and [Model.ipynb](https://nbviewer.jupyter.org/github/djordjened92/recognizing-faces/blob/master/Model.ipynb).
